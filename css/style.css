@@ -1,0 +1,127 @@
+body{
+    position: absolute;
+    background-color: rgb(12, 12, 12);
+    margin: 0;
+}
+
+body img {
+  width: auto;
+}
+
+.blink {
+    animation: blink-animation 1s steps(5, start) infinite;
+    -webkit-animation: blink-animation 1s steps(5, start) infinite;
+  }
+  @keyframes blink-animation {
+    to {
+      visibility: hidden;
+    }
+  }
+  @-webkit-keyframes blink-animation {
+    to {
+      visibility: hidden;
+    }
+  }
+
+#startingA {
+  position: absolute;
+  top: 10px;
+  left: 50%;
+}
+
+  .country-container {  
+      visibility: hidden;
+      position: absolute;
+      /* top: 838px;
+      left: 700px; */
+      width: 100px;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+  }
+
+  .toggle {
+      visibility: visible;
+  }
+
+  .led {
+      width: 5px;
+      height: 5px;
+      background-color: royalblue;
+      border-radius: 50%;
+      margin: 8px;
+  }
+
+  .country {
+      color: rgb(96, 94, 94);
+      border: 1px lightgray solid;
+      background: rgb(96, 94, 94);
+      color: lightgray ;
+      border-radius: 2px;
+      padding: 2px 6px;
+      font-size: 0.6rem;
+      font-family: Arial, Helvetica, sans-serif;
+      opacity: .8;
+  }
+
+  .Andorra {
+    top: 375px;
+    left: 845px;
+  }
+  .Afghanistan {
+    top: 425px;
+    left: 1200px;
+  }
+  .Antigua-and-Barbuda {
+    top: 500px;
+    left: 460px;
+  }
+  .Anguilla {
+    top: 350px;
+    left: 550px;
+  }
+  .Albania {
+    top: 390px;
+    left: 950px;
+  }
+  .Armenia {
+    top: 390px;
+    left: 1082px;
+  }
+  .Angola {
+    top: 680px;
+    left: 940px;
+  }
+  .Antarctica {
+    top: 10px;
+    left: 540px;
+  }
+  .Argentina {
+    top: 800px;
+    left: 500px;
+  }
+  .American-Samoa {
+    top: 700px;
+    left: 1850px;
+  }
+  .Austria {
+    top: 350px;
+    left: 890px;
+  }
+  .Australia {
+    top: 770px;
+    left: 1550px;
+  }
+  .Aruba {
+    top: 550px;
+    left: 510px;
+  }
+  .Azerbaijan {
+    top: 220px;
+    left: 1750px;
+  }
+  .Algeria {
+    top: 470px;
+    left: 860px;
+  }
