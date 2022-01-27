@@ -1,4 +1,4 @@
-export let data = {
+let data = {
     countries: {
       country: [
         {
@@ -17,7 +17,7 @@ export let data = {
           languages: "fa-AF,ps,uz-AF,tk"
         },
         {
-          countryName: "Antigua-and-Barbuda",
+          countryName: "Antigua",
           population: "96286",
           languages: "en-AG"
         },
